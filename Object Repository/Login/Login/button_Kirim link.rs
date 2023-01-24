@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Kirim link</name>
+   <tag></tag>
+   <elementGuidId>758b1252-17f9-44c1-8458-81c798a6db6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btnCounter']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btnCounter</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>48b12437-0090-4667-b200-be9943a4cd0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>5ae028cf-319b-474c-b407-c4b7ed78329b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnCounter</value>
+      <webElementGuid>783c6a54-f5ba-4b6e-8aa7-67a6eeec6920</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-block btn-primary</value>
+      <webElementGuid>cb2615c2-6adb-4382-8eaa-1131036e52ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            Kirim link
+                                        </value>
+      <webElementGuid>86e6d12f-a4ac-42cb-ad5c-cb96b53df478</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;btnCounter&quot;)</value>
+      <webElementGuid>bf91ffe5-a49e-4833-953e-4a4a58434d18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='btnCounter']</value>
+      <webElementGuid>bb15a31d-b148-4124-8126-8349c872af37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa Kata Sandi'])[1]/following::button[1]</value>
+      <webElementGuid>39815fe2-ed72-4b0d-ac0d-2dc1edfbe52f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About CODING.ID'])[1]/preceding::button[1]</value>
+      <webElementGuid>b27576a0-5da7-4f14-89d6-fc377a1a850d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Site Map'])[1]/preceding::button[1]</value>
+      <webElementGuid>5d3e220f-6a29-4e8e-ad24-3ea123bb8ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Kirim link']/parent::*</value>
+      <webElementGuid>ee4343ab-c71b-4089-bfaf-f5f18ccd98a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button</value>
+      <webElementGuid>a2d0c016-de7b-4d38-9b49-279fbb4d5e46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @id = 'btnCounter' and (text() = '
+                                            Kirim link
+                                        ' or . = '
+                                            Kirim link
+                                        ')]</value>
+      <webElementGuid>56ce5e6f-d67c-4e8e-a703-d61e4e6e16fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

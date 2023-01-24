@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Email Format Wrong (without '@') but Valid Password</description>
+   <name>TC07-Login Failed_5</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>373aeb3b-ffa4-458c-bbb6-92d6ab3d9b31</testCaseGuid>
+</TestCaseEntity>

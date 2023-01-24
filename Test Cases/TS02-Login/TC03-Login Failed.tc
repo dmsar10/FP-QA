@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Blank Password and Blank Email</description>
+   <name>TC03-Login Failed</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>f543ea97-6895-4920-ace9-338e6cdcc0e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>324f713b-deed-4bbe-aacb-8b81d10fa1b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Please fill out this field.'</defaultValue>
+      <description></description>
+      <id>324f713b-deed-4bbe-aacb-8b81d10fa1b5</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
