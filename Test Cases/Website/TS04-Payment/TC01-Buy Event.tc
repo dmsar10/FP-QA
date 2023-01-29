@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Successfully buy an event</description>
+   <name>TC01-Buy Event</name>
+   <tag>Payment</tag>
+   <comment></comment>
+   <testCaseGuid>03d18906-39b8-48e9-9a48-23a3065ce847</testCaseGuid>
+</TestCaseEntity>
