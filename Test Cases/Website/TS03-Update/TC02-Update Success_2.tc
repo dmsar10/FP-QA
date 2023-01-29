@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Valid Data but fullname using special character</description>
+   <name>TC02-Update Success_2</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>d837be4c-23ec-4085-8e0f-a82f93af4c6e</testCaseGuid>
+</TestCaseEntity>

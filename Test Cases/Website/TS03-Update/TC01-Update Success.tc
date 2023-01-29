@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input all valid data</description>
+   <name>TC01-Update Success</name>
+   <tag>Update</tag>
+   <comment></comment>
+   <testCaseGuid>fb63687a-1cfd-4f45-bc8b-8624380be331</testCaseGuid>
+</TestCaseEntity>

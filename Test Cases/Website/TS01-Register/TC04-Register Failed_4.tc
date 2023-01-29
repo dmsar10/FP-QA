@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Password Confirmation is not same with the New Password</description>
+   <name>TC04-Register Failed_4</name>
+   <tag>Register</tag>
+   <comment></comment>
+   <testCaseGuid>db919512-6fe4-4f2d-844d-63ca373295fd</testCaseGuid>
+</TestCaseEntity>
