@@ -21,33 +21,35 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Payment/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Payment_website/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Payment/input_Email_email'), 'dmsar141@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Payment_website/input_Email_email'), 'dmsar141@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Payment/input_Kata                                 _98da12'), 'cZFrDSk31FeaspcjiMwZ6g==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Payment_website/input_Kata                                 _98da12'), 'cZFrDSk31FeaspcjiMwZ6g==')
 
-WebUI.click(findTestObject('Object Repository/Payment/button_Login'))
+WebUI.click(findTestObject('Object Repository/Payment_website/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Payment/a_Events'))
+WebUI.click(findTestObject('Object Repository/Payment_website/a_Events'))
 
-WebUI.click(findTestObject('Object Repository/Payment/div_Day 4 Workshop                         _31d43a'))
+WebUI.click(findTestObject('Object Repository/Payment_website/div_Day 4 Workshop                         _31d43a'))
 
-WebUI.click(findTestObject('Object Repository/Payment/a_Beli Tiket'))
+WebUI.click(findTestObject('Object Repository/Payment_website/a_Beli Tiket'))
 
-WebUI.click(findTestObject('Object Repository/Payment/a_Lihat                Pembelian Saya'))
+WebUI.click(findTestObject('Object Repository/Payment_website/a_Lihat                Pembelian Saya'))
 
-WebUI.click(findTestObject('Object Repository/Payment/button_Checkout'))
+WebUI.click(findTestObject('Object Repository/Payment_website/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Payment/input_Total Pembayaran_payment_method'))
+WebUI.click(findTestObject('Object Repository/Payment_website/input_Total Pembayaran_payment_method'))
 
-WebUI.click(findTestObject('Object Repository/Payment/button_Confirm'))
+WebUI.click(findTestObject('Object Repository/Payment_website/button_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/Payment/img_PT Dwidata Talenta Prima_logo'))
+WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Payment/h4_Rangkuman Pembelian'), 'Rangkuman Pembelian')
+WebUI.click(findTestObject('Object Repository/Payment_website/img_PT Dwidata Talenta Prima_logo'))
 
-WebUI.deleteAllCookies()
+WebUI.verifyElementText(findTestObject('Object Repository/Payment_website/h4_Rangkuman Pembelian'), 'Rangkuman Pembelian')
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

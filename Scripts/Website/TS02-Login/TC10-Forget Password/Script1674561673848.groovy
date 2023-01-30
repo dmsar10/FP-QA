@@ -30,7 +30,7 @@ WebUI.setText(findTestObject('Object Repository/Login_website/Login/input_Lupa K
 
 WebUI.click(findTestObject('Object Repository/Login_website/Login/button_Kirim link'))
 
-WebUI.verifyElementPresent(findTestObject('Login_website/Login/input_Lupa Kata Sandi_email'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Login_website/Login/input_Lupa Kata Sandi_email'), 0)
 
 WebUI.delay(2)
 

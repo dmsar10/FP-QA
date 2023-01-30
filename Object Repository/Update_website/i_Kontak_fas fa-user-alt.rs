@@ -6,12 +6,12 @@
    <elementGuidId>677b8f9c-b10f-4158-b28f-8b00661a308e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>i.fas.fa-user-alt</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-user-alt</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>2dff5d1f-cd83-4a1c-9b9a-fcef2f3ac2a9</webElementGuid>
+      <webElementGuid>865430da-f2af-43da-85f6-c343a4f71720</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fas fa-user-alt</value>
-      <webElementGuid>26ef0b50-2c22-47ec-9831-9edfe0748db8</webElementGuid>
+      <webElementGuid>92e6bda7-71f8-4c2e-ac03-23dd61fba6e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;___class_+?26___&quot;]/a[1]/i[@class=&quot;fas fa-user-alt&quot;]</value>
-      <webElementGuid>a09217fc-777a-469e-9606-68f47c565d04</webElementGuid>
+      <webElementGuid>88856104-7a4a-4be9-afb8-a09be22af32b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
-      <webElementGuid>cd9858f6-f9cb-4d4e-a486-cbebed421436</webElementGuid>
+      <webElementGuid>22e3fe23-52e8-4bfc-90ce-cf1585d7f854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/i</value>
-      <webElementGuid>8216de5a-d21b-46b0-a4e7-7708ef83b4c6</webElementGuid>
+      <webElementGuid>4da4a8e1-04b1-48bc-8cf6-06c4c5f4fd5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

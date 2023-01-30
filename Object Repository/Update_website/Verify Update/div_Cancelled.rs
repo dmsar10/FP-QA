@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Cancelled</name>
+   <tag></tag>
+   <elementGuidId>ab2259d4-6285-4373-9da8-ea132651a9da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.swal-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>221c774d-4a67-4a7c-94ab-46ae1e9deeae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal-text</value>
+      <webElementGuid>c3c97d6e-b1fd-4852-bcef-08ddeda3b154</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancelled</value>
+      <webElementGuid>ef479bdd-5a4b-4857-ba73-074b86b92bc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;light light-sidebar theme-white&quot;]/div[@class=&quot;swal-overlay swal-overlay--show-modal&quot;]/div[@class=&quot;swal-modal&quot;]/div[@class=&quot;swal-text&quot;]</value>
+      <webElementGuid>e0893b94-aca6-4b58-aa85-ce65862e90ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil'])[1]/following::div[1]</value>
+      <webElementGuid>9e486e59-31b3-4afc-9471-f19bee70325a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coding.ID'])[2]/following::div[8]</value>
+      <webElementGuid>6264c1fd-af8e-4f0c-949a-e71d597b7db3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[1]</value>
+      <webElementGuid>41343ead-b710-4cdf-a7fb-b89f0d2c3c5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cancelled']/parent::*</value>
+      <webElementGuid>962775d8-988d-47f1-90db-03c0260a0697</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]</value>
+      <webElementGuid>cc7bdf11-049c-4f5a-9413-32caa5bf78df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Cancelled' or . = 'Cancelled')]</value>
+      <webElementGuid>bcfce3c4-c65f-4b94-a6c7-d1a2616c0e97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

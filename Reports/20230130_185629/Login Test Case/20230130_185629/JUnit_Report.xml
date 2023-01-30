@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Case" time="287.532" tests="11" failures="0" errors="0">
+   <testsuite name="Login Test Case" tests="11" failures="0" errors="0" time="287.532" skipped="0" timestamp="2023-01-30 18:56:32" hostname="dimas - LAPTOP-6BQ6KBE7" id="Test Suites/Login Test Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dimas\\git\\FP-QA\\Reports\\20230130_185629\\Login Test Case\\20230130_185629"/>
+         <property name="logFiles" value="C:\\Users\\dimas\\git\\FP-QA\\Reports\\20230130_185629\\Login Test Case\\20230130_185629\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dimas - LAPTOP-6BQ6KBE7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="200.20.20.43"/>
+         <property name="sessionId" value="b2ebfd583e55aba0a1a668fd35df516e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Website/TS02-Login/TC01-Login Success" time="23.662" classname="Test Cases/Website/TS02-Login/TC01-Login Success" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:56:33 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC01-Login Success: Test Cases/Website/TS02-Login/TC01-Login Success
+
+2023-01-30 18:56:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:56:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:56:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:56:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:56:36 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:56:49 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:56:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), "dmsar141@gmail.com"): Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:56:53 - [MESSAGE][PASSED] - Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:56:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "cZFrDSk31FeaspcjiMwZ6g=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:56:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:56:55 - [TEST_STEP][PASSED] - verifyTextPresent("Coding Bootcamp", true): Text 'Coding Bootcamp' is present on page  using regular expression
+
+2023-01-30 18:56:56 - [MESSAGE][PASSED] - Text 'Coding Bootcamp' is present on page  using regular expression
+
+2023-01-30 18:56:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:56:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC02-Login Success_2" time="17.845" classname="Test Cases/Website/TS02-Login/TC02-Login Success_2" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:56:56 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC02-Login Success_2: Test Cases/Website/TS02-Login/TC02-Login Success_2
+
+2023-01-30 18:56:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:56:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:56:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:56:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:56:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:08 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), "dmsar141@gmail.com"): Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:57:11 - [MESSAGE][PASSED] - Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:57:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "cZFrDSk31FeaspcjiMwZ6g=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:57:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:57:12 - [TEST_STEP][PASSED] - verifyTextPresent("Coding Bootcamp", true): Text 'Coding Bootcamp' is present on page  using regular expression
+
+2023-01-30 18:57:13 - [MESSAGE][PASSED] - Text 'Coding Bootcamp' is present on page  using regular expression
+
+2023-01-30 18:57:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:57:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC03-Login Failed" time="16.092" classname="Test Cases/Website/TS02-Login/TC03-Login Failed" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:57:14 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC03-Login Failed: Test Cases/Website/TS02-Login/TC03-Login Failed
+
+2023-01-30 18:57:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:57:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:57:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:57:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:57:16 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:24 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), ""): Text '' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:57:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:57:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Password"), ""): Text '' is set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:57:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:57:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_website/Login Notification/input_Email_Popup"), 0): Object 'Object Repository/Login_website/Login Notification/input_Email_Popup' is present
+
+2023-01-30 18:57:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-30 18:57:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login_website/Login Notification/input_Email_Popup' is present
+
+2023-01-30 18:57:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 18:57:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 18:57:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:57:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC04-Login Failed_2" time="17.812" classname="Test Cases/Website/TS02-Login/TC04-Login Failed_2" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:57:30 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC04-Login Failed_2: Test Cases/Website/TS02-Login/TC04-Login Failed_2
+
+2023-01-30 18:57:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:57:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:57:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:57:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:57:32 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:41 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), "dmsar141@gmail.com"): Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:57:43 - [MESSAGE][PASSED] - Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:57:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "nwr9I1qT+J0GbQ++JlYjHw=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:57:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:57:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login_website/Verify Login/small_Email atau kata sandi salah"), "Email atau kata sandi salah"): Actual text and expected text of test object 'Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah' are matched.
+
+2023-01-30 18:57:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah' are matched.
+
+2023-01-30 18:57:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 18:57:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 18:57:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:57:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC05-Login Failed_3" time="16.933" classname="Test Cases/Website/TS02-Login/TC05-Login Failed_3" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:57:48 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC05-Login Failed_3: Test Cases/Website/TS02-Login/TC05-Login Failed_3
+
+2023-01-30 18:57:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:57:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:57:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:57:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:57:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:57 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:57:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_website/Login/input_Email_email"), "abc123141@gmail.com"): Text 'abc123141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:58:00 - [MESSAGE][PASSED] - Text 'abc123141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:58:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "cZFrDSk31FeaspcjiMwZ6g=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:58:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:58:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah"), "Email atau kata sandi salah"): Actual text and expected text of test object 'Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah' are matched.
+
+2023-01-30 18:58:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah' are matched.
+
+2023-01-30 18:58:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 18:58:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 18:58:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:58:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC06-Login Failed_4" time="15.706" classname="Test Cases/Website/TS02-Login/TC06-Login Failed_4" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:58:05 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC06-Login Failed_4: Test Cases/Website/TS02-Login/TC06-Login Failed_4
+
+2023-01-30 18:58:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:58:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:58:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:58:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:58:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:58:14 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), "dmsar141@gmail.com"): Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:58:17 - [MESSAGE][PASSED] - Text 'dmsar141@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Password"), ""): Text '' is set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:58:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:58:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_website/Login/input_Password"), 0): Object 'Object Repository/Login_website/Login/input_Password' is present
+
+2023-01-30 18:58:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-30 18:58:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login_website/Login/input_Password' is present
+
+2023-01-30 18:58:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 18:58:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 18:58:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:58:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC07-Login Failed_5" time="39.219" classname="Test Cases/Website/TS02-Login/TC07-Login Failed_5" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:58:21 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC07-Login Failed_5: Test Cases/Website/TS02-Login/TC07-Login Failed_5
+
+2023-01-30 18:58:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:58:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:58:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:58:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:58:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:58:50 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), "dmsar141"): Text 'dmsar141' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:58:56 - [MESSAGE][PASSED] - Text 'dmsar141' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:58:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "cZFrDSk31FeaspcjiMwZ6g=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:58:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:58:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_website/Login/input_Email_email"), 0): Object 'Object Repository/Login_website/Login/input_Email_email' is present
+
+2023-01-30 18:58:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-30 18:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/Login_website/Login/input_Email_email' is present
+
+2023-01-30 18:58:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 18:58:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 18:58:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:59:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC08-Login Failed_6" time="36.202" classname="Test Cases/Website/TS02-Login/TC08-Login Failed_6" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:59:00 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC08-Login Failed_6: Test Cases/Website/TS02-Login/TC08-Login Failed_6
+
+2023-01-30 18:59:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:59:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:59:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:59:01 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:59:26 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 18:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 18:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), "dmsar141@"): Text 'dmsar141@' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:59:32 - [MESSAGE][PASSED] - Text 'dmsar141@' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 18:59:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "cZFrDSk31FeaspcjiMwZ6g=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:59:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 18:59:33 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 18:59:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_website/Login/input_Email_email"), 0): Object 'Object Repository/Login_website/Login/input_Email_email' is present
+
+2023-01-30 18:59:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-30 18:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login_website/Login/input_Email_email' is present
+
+2023-01-30 18:59:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 18:59:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 18:59:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 18:59:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC09-Login Failed_7" time="40.222" classname="Test Cases/Website/TS02-Login/TC09-Login Failed_7" status="PASSED">
+         <system-out><![CDATA[2023-01-30 18:59:36 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC09-Login Failed_7: Test Cases/Website/TS02-Login/TC09-Login Failed_7
+
+2023-01-30 18:59:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 18:59:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 18:59:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 18:59:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 18:59:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 19:00:00 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 19:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 19:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 19:00:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Email_email"), ""): Text '' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 19:00:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login_website/Login/input_Email_email'
+
+2023-01-30 19:00:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login_website/Login/input_Password"), "cZFrDSk31FeaspcjiMwZ6g=="): Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 19:00:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login_website/Login/input_Password'
+
+2023-01-30 19:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Login")): Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 19:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Login' is clicked on
+
+2023-01-30 19:00:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login_website/Login/input_Email_email"), 0): Object 'Object Repository/Login_website/Login/input_Email_email' is present
+
+2023-01-30 19:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-30 19:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login_website/Login/input_Email_email' is present
+
+2023-01-30 19:00:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 19:00:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 19:00:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 19:00:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC10-Forget Password" time="38.055" classname="Test Cases/Website/TS02-Login/TC10-Forget Password" status="PASSED">
+         <system-out><![CDATA[2023-01-30 19:00:16 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC10-Forget Password: Test Cases/Website/TS02-Login/TC10-Forget Password
+
+2023-01-30 19:00:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 19:00:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 19:00:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 19:00:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 19:00:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 19:00:39 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 19:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 19:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 19:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_website/Login/a_Lupa kata sandi")): Object: 'Object Repository/Login_website/Login/a_Lupa kata sandi' is clicked on
+
+2023-01-30 19:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Lupa kata sandi' is clicked on
+
+2023-01-30 19:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login_website/Login/input_Lupa Kata Sandi_email"), ""): Text '' is set on object 'Object Repository/Login_website/Login/input_Lupa Kata Sandi_email'
+
+2023-01-30 19:00:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login_website/Login/input_Lupa Kata Sandi_email'
+
+2023-01-30 19:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login_website/Login/button_Kirim link")): Object: 'Object Repository/Login_website/Login/button_Kirim link' is clicked on
+
+2023-01-30 19:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Kirim link' is clicked on
+
+2023-01-30 19:00:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login_website/Login/input_Lupa Kata Sandi_email"), 0): Object 'Object Repository/Login_website/Login/input_Lupa Kata Sandi_email' is present
+
+2023-01-30 19:00:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-30 19:00:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login_website/Login/input_Lupa Kata Sandi_email' is present
+
+2023-01-30 19:00:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-01-30 19:00:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-01-30 19:00:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 19:00:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/TS02-Login/TC11-Forget Password_2" time="25.32" classname="Test Cases/Website/TS02-Login/TC11-Forget Password_2" status="PASSED">
+         <system-out><![CDATA[2023-01-30 19:00:54 - [TEST_CASE][PASSED] - Test Cases/Website/TS02-Login/TC11-Forget Password_2: Test Cases/Website/TS02-Login/TC11-Forget Password_2
+
+2023-01-30 19:00:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-30 19:00:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-30 19:00:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-30 19:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-30 19:00:56 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 19:01:10 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-01-30 19:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Masuk")): Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 19:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Masuk' is clicked on
+
+2023-01-30 19:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/a_Lupa kata sandi")): Object: 'Object Repository/Login_website/Login/a_Lupa kata sandi' is clicked on
+
+2023-01-30 19:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/a_Lupa kata sandi' is clicked on
+
+2023-01-30 19:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login_website/Login/input_Lupa Kata Sandi_email"), "abc123456@gmail.com"): Text 'abc123456@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Lupa Kata Sandi_email'
+
+2023-01-30 19:01:17 - [MESSAGE][PASSED] - Text 'abc123456@gmail.com' is set on object 'Object Repository/Login_website/Login/input_Lupa Kata Sandi_email'
+
+2023-01-30 19:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Login_website/Login/button_Kirim link")): Object: 'Object Repository/Login_website/Login/button_Kirim link' is clicked on
+
+2023-01-30 19:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_website/Login/button_Kirim link' is clicked on
+
+2023-01-30 19:01:18 - [TEST_STEP][PASSED] - verifyTextPresent("User tidak ditemukan", true): Text 'User tidak ditemukan' is present on page  using regular expression
+
+2023-01-30 19:01:19 - [MESSAGE][PASSED] - Text 'User tidak ditemukan' is present on page  using regular expression
+
+2023-01-30 19:01:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-30 19:01:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-30 18:56:32 - [TEST_SUITE][PASSED] - Login Test Case: Test Cases/Website/TS02-Login/TC11-Forget Password_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

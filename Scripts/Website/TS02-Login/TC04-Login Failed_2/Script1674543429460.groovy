@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Login_website/Login/a_Masuk'))
+WebUI.click(findTestObject('Login_website/Login/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login_website/Login/input_Email_email'), 'dmsar141@gmail.com')
+WebUI.setText(findTestObject('Login_website/Login/input_Email_email'), 'dmsar141@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Login_website/Login/input_Password'), 'nwr9I1qT+J0GbQ++JlYjHw==')
 
 WebUI.click(findTestObject('Object Repository/Login_website/Login/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah'), 'Email atau kata sandi salah')
+WebUI.verifyElementText(findTestObject('Login_website/Verify Login/small_Email atau kata sandi salah'), 'Email atau kata sandi salah')
 
 WebUI.delay(2)
 

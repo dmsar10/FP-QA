@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Case,Chrome 109.0.0.0,All Login Test Case,,2023-01-30 18:56:32,2023-01-30 19:01:20,4m - 47.532s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC01-Login Success,Chrome 109.0.0.0,Valid Username and Valid Password,Login,2023-01-30 18:56:33,2023-01-30 18:56:56,23.662s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:56:33,2023-01-30 18:56:36,2.671s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:56:36,2023-01-30 18:56:49,13.099s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:56:49,2023-01-30 18:56:52,2.899s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), ""dmsar141@gmail.com"")",Chrome 109.0.0.0,,,2023-01-30 18:56:52,2023-01-30 18:56:53,1.161s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""cZFrDSk31FeaspcjiMwZ6g=="")",Chrome 109.0.0.0,,,2023-01-30 18:56:53,2023-01-30 18:56:53,0.474s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:56:53,2023-01-30 18:56:55,1.273s,PASSED
+"verifyTextPresent(""Coding Bootcamp"", true)",Chrome 109.0.0.0,,,2023-01-30 18:56:55,2023-01-30 18:56:56,0.847s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:56:56,2023-01-30 18:56:56,0.670s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC02-Login Success_2,Chrome 109.0.0.0,Valid Email and Mix character of Password,Login,2023-01-30 18:56:56,2023-01-30 18:57:14,17.845s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:56:57,2023-01-30 18:56:58,1.142s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:56:58,2023-01-30 18:57:08,9.728s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:57:08,2023-01-30 18:57:10,2.412s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), ""dmsar141@gmail.com"")",Chrome 109.0.0.0,,,2023-01-30 18:57:10,2023-01-30 18:57:11,0.689s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""cZFrDSk31FeaspcjiMwZ6g=="")",Chrome 109.0.0.0,,,2023-01-30 18:57:11,2023-01-30 18:57:11,0.426s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:57:11,2023-01-30 18:57:12,1.148s,PASSED
+"verifyTextPresent(""Coding Bootcamp"", true)",Chrome 109.0.0.0,,,2023-01-30 18:57:12,2023-01-30 18:57:13,0.831s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:57:13,2023-01-30 18:57:14,1.027s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC03-Login Failed,Chrome 109.0.0.0,Blank Password and Blank Email,Login,2023-01-30 18:57:14,2023-01-30 18:57:30,16.092s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:57:15,2023-01-30 18:57:16,1.147s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:57:16,2023-01-30 18:57:24,7.926s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:57:24,2023-01-30 18:57:25,1.760s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), """")",Chrome 109.0.0.0,,,2023-01-30 18:57:25,2023-01-30 18:57:26,0.665s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Password""), """")",Chrome 109.0.0.0,,,2023-01-30 18:57:26,2023-01-30 18:57:27,0.661s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:57:27,2023-01-30 18:57:27,0.393s,PASSED
+"verifyElementPresent(findTestObject(""Login_website/Login Notification/input_Email_Popup""), 0)",Chrome 109.0.0.0,,,2023-01-30 18:57:27,2023-01-30 18:57:27,0.344s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 18:57:27,2023-01-30 18:57:30,2.037s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:57:30,2023-01-30 18:57:30,0.652s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC04-Login Failed_2,Chrome 109.0.0.0,Valid Email but Invalid Password,Login,2023-01-30 18:57:30,2023-01-30 18:57:48,17.812s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:57:31,2023-01-30 18:57:32,1.148s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:57:32,2023-01-30 18:57:41,9.091s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:57:41,2023-01-30 18:57:43,1.756s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), ""dmsar141@gmail.com"")",Chrome 109.0.0.0,,,2023-01-30 18:57:43,2023-01-30 18:57:43,0.676s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""nwr9I1qT+J0GbQ++JlYjHw=="")",Chrome 109.0.0.0,,,2023-01-30 18:57:43,2023-01-30 18:57:44,0.421s,PASSED
+"click(findTestObject(""Object Repository/Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:57:44,2023-01-30 18:57:45,1.074s,PASSED
+"verifyElementText(findTestObject(""Login_website/Verify Login/small_Email atau kata sandi salah""), ""Email atau kata sandi salah"")",Chrome 109.0.0.0,,,2023-01-30 18:57:45,2023-01-30 18:57:45,0.596s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 18:57:45,2023-01-30 18:57:47,2.013s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:57:47,2023-01-30 18:57:48,0.651s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC05-Login Failed_3,Chrome 109.0.0.0,Invalid Email but Valid Password,Login,2023-01-30 18:57:48,2023-01-30 18:58:05,16.933s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:57:48,2023-01-30 18:57:50,1.142s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:57:50,2023-01-30 18:57:57,7.360s,PASSED
+"click(findTestObject(""Object Repository/Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:57:57,2023-01-30 18:57:59,2.133s,PASSED
+"setText(findTestObject(""Object Repository/Login_website/Login/input_Email_email""), ""abc123141@gmail.com"")",Chrome 109.0.0.0,,,2023-01-30 18:57:59,2023-01-30 18:58:00,0.665s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""cZFrDSk31FeaspcjiMwZ6g=="")",Chrome 109.0.0.0,,,2023-01-30 18:58:00,2023-01-30 18:58:00,0.508s,PASSED
+"click(findTestObject(""Object Repository/Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:58:00,2023-01-30 18:58:01,1.225s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login_website/Verify Login/small_Email atau kata sandi salah""), ""Email atau kata sandi salah"")",Chrome 109.0.0.0,,,2023-01-30 18:58:01,2023-01-30 18:58:02,0.675s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 18:58:02,2023-01-30 18:58:04,2.006s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:58:04,2023-01-30 18:58:05,0.824s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC06-Login Failed_4,Chrome 109.0.0.0,Valid Email but Blank Password,Login,2023-01-30 18:58:05,2023-01-30 18:58:21,15.706s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:58:05,2023-01-30 18:58:06,1.137s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:58:06,2023-01-30 18:58:14,7.598s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:58:14,2023-01-30 18:58:16,1.755s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), ""dmsar141@gmail.com"")",Chrome 109.0.0.0,,,2023-01-30 18:58:16,2023-01-30 18:58:17,0.778s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Password""), """")",Chrome 109.0.0.0,Please fill out this field.,,2023-01-30 18:58:17,2023-01-30 18:58:17,0.656s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:58:17,2023-01-30 18:58:18,0.385s,PASSED
+"verifyElementPresent(findTestObject(""Login_website/Login/input_Password""), 0)",Chrome 109.0.0.0,,,2023-01-30 18:58:18,2023-01-30 18:58:18,0.332s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 18:58:18,2023-01-30 18:58:20,2.005s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:58:20,2023-01-30 18:58:21,0.670s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC07-Login Failed_5,Chrome 109.0.0.0,Email Format Wrong (without '@') but Valid Password,Login,2023-01-30 18:58:21,2023-01-30 18:59:00,39.219s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:58:21,2023-01-30 18:58:22,1.150s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:58:22,2023-01-30 18:58:50,27.312s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:58:50,2023-01-30 18:58:55,5.441s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), ""dmsar141"")",Chrome 109.0.0.0,Please include an '@' in the email address.,,2023-01-30 18:58:55,2023-01-30 18:58:56,0.651s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""cZFrDSk31FeaspcjiMwZ6g=="")",Chrome 109.0.0.0,,,2023-01-30 18:58:56,2023-01-30 18:58:56,0.837s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:58:56,2023-01-30 18:58:57,0.394s,PASSED
+"verifyElementPresent(findTestObject(""Login_website/Login/input_Email_email""), 0)",Chrome 109.0.0.0,,,2023-01-30 18:58:57,2023-01-30 18:58:57,0.329s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 18:58:57,2023-01-30 18:58:59,2.009s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:58:59,2023-01-30 18:59:00,0.662s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC08-Login Failed_6,Chrome 109.0.0.0,Email Format Is Incomplete but Valid Password,Login,2023-01-30 18:59:00,2023-01-30 18:59:36,36.202s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:59:00,2023-01-30 18:59:01,1.146s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:59:01,2023-01-30 18:59:26,24.859s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 18:59:26,2023-01-30 18:59:31,5.009s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), ""dmsar141@"")",Chrome 109.0.0.0,Please enter a part following '@',,2023-01-30 18:59:31,2023-01-30 18:59:32,0.649s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""cZFrDSk31FeaspcjiMwZ6g=="")",Chrome 109.0.0.0,,,2023-01-30 18:59:32,2023-01-30 18:59:33,0.713s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 18:59:33,2023-01-30 18:59:33,0.383s,PASSED
+"verifyElementPresent(findTestObject(""Login_website/Login/input_Email_email""), 0)",Chrome 109.0.0.0,,,2023-01-30 18:59:33,2023-01-30 18:59:33,0.337s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 18:59:33,2023-01-30 18:59:35,2.012s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 18:59:35,2023-01-30 18:59:36,0.667s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC09-Login Failed_7,Chrome 109.0.0.0,Blank Email but Valid Password,Login,2023-01-30 18:59:36,2023-01-30 19:00:16,40.222s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 18:59:36,2023-01-30 18:59:38,1.132s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 18:59:38,2023-01-30 19:00:00,22.472s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 19:00:00,2023-01-30 19:00:12,11.713s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Email_email""), """")",Chrome 109.0.0.0,Please fill out this field.,,2023-01-30 19:00:12,2023-01-30 19:00:12,0.665s,PASSED
+"setEncryptedText(findTestObject(""Login_website/Login/input_Password""), ""cZFrDSk31FeaspcjiMwZ6g=="")",Chrome 109.0.0.0,,,2023-01-30 19:00:12,2023-01-30 19:00:13,0.413s,PASSED
+"click(findTestObject(""Login_website/Login/button_Login""))",Chrome 109.0.0.0,,,2023-01-30 19:00:13,2023-01-30 19:00:13,0.415s,PASSED
+"verifyElementPresent(findTestObject(""Login_website/Login/input_Email_email""), 0)",Chrome 109.0.0.0,,,2023-01-30 19:00:13,2023-01-30 19:00:14,0.323s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 19:00:14,2023-01-30 19:00:16,2.011s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 19:00:16,2023-01-30 19:00:16,0.667s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC10-Forget Password,Chrome 109.0.0.0,Using a 'forget password' features but blank email,Login,2023-01-30 19:00:16,2023-01-30 19:00:54,38.055s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 19:00:17,2023-01-30 19:00:18,1.143s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 19:00:18,2023-01-30 19:00:39,21.201s,PASSED
+"click(findTestObject(""Object Repository/Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 19:00:39,2023-01-30 19:00:49,9.729s,PASSED
+"click(findTestObject(""Object Repository/Login_website/Login/a_Lupa kata sandi""))",Chrome 109.0.0.0,,,2023-01-30 19:00:49,2023-01-30 19:00:50,0.831s,PASSED
+"setText(findTestObject(""Object Repository/Login_website/Login/input_Lupa Kata Sandi_email""), """")",Chrome 109.0.0.0,Please fill out this field.,,2023-01-30 19:00:50,2023-01-30 19:00:51,0.969s,PASSED
+"click(findTestObject(""Object Repository/Login_website/Login/button_Kirim link""))",Chrome 109.0.0.0,,,2023-01-30 19:00:51,2023-01-30 19:00:51,0.381s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login_website/Login/input_Lupa Kata Sandi_email""), 0)",Chrome 109.0.0.0,,,2023-01-30 19:00:51,2023-01-30 19:00:51,0.328s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-30 19:00:51,2023-01-30 19:00:53,2.010s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 19:00:53,2023-01-30 19:00:54,1.052s,PASSED
+,,,,,,,
+Test Cases/Website/TS02-Login/TC11-Forget Password_2,Chrome 109.0.0.0,"Using 'forget password' features, but have not register the email",Login,2023-01-30 19:00:54,2023-01-30 19:01:20,25.320s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-30 19:00:55,2023-01-30 19:00:56,1.139s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 109.0.0.0,,,2023-01-30 19:00:56,2023-01-30 19:01:10,14.069s,PASSED
+"click(findTestObject(""Login_website/Login/a_Masuk""))",Chrome 109.0.0.0,,,2023-01-30 19:01:10,2023-01-30 19:01:16,5.631s,PASSED
+"click(findTestObject(""Login_website/Login/a_Lupa kata sandi""))",Chrome 109.0.0.0,,,2023-01-30 19:01:16,2023-01-30 19:01:16,0.878s,PASSED
+"setText(findTestObject(""Login_website/Login/input_Lupa Kata Sandi_email""), ""abc123456@gmail.com"")",Chrome 109.0.0.0,,,2023-01-30 19:01:16,2023-01-30 19:01:17,1.013s,PASSED
+"click(findTestObject(""Login_website/Login/button_Kirim link""))",Chrome 109.0.0.0,,,2023-01-30 19:01:17,2023-01-30 19:01:18,0.820s,PASSED
+"verifyTextPresent(""User tidak ditemukan"", true)",Chrome 109.0.0.0,,,2023-01-30 19:01:18,2023-01-30 19:01:19,0.749s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-30 19:01:19,2023-01-30 19:01:20,0.622s,PASSED

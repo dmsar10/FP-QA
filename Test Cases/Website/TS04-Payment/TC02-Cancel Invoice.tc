@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancel my invoice</description>
+   <name>TC02-Cancel Invoice</name>
+   <tag>Payment</tag>
+   <comment></comment>
+   <testCaseGuid>caf9889b-9e00-4ef1-8935-f090d3f8a994</testCaseGuid>
+</TestCaseEntity>

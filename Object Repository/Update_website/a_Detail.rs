@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_My Account</name>
+   <name>a_Detail</name>
    <tag></tag>
-   <elementGuidId>21c3e4a6-bf2a-43a4-adfa-dbcfe4d48947</elementGuidId>
+   <elementGuidId>abc1757d-ce5a-4755-bc17-1792c40c819f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[3]/a</value>
+         <value>//table[@id='tableCourse']/tbody/tr/td[5]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>a.btn.btn-info</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,105 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>af61e260-1741-424c-8366-962c53287636</webElementGuid>
+      <webElementGuid>8368e9cc-6a9f-46bb-bb23-baea44e32ea0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/dashboard</value>
-      <webElementGuid>57cda469-d3c1-47bc-8bfe-d20a0d86ee4b</webElementGuid>
+      <value>invoice/EVN30012300018</value>
+      <webElementGuid>71eaebd4-6366-4ba3-a83c-1b832d1c51a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-info</value>
+      <webElementGuid>8010af67-a477-457c-bed6-0169652b0b45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>My Account
-                                                                </value>
-      <webElementGuid>92caeffb-c0b5-4a89-a894-bacab06c66eb</webElementGuid>
+      <value>Detail</value>
+      <webElementGuid>5ccd40fe-a22c-41dc-8fb0-cf97ba21b1aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;___class_+?26___&quot;]/ul[@class=&quot;wm-dropdown-menu&quot;]/li[3]/a[1]</value>
-      <webElementGuid>77ca1320-adeb-4283-b6a9-132cb1c47b77</webElementGuid>
+      <value>id(&quot;tableCourse&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/a[@class=&quot;btn btn-info&quot;]</value>
+      <webElementGuid>68909ed7-a24d-451f-8cc5-1f8ad614b2f0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[3]/a</value>
-      <webElementGuid>a0a0e2d4-42e6-41e4-a1b2-286d8e56b35c</webElementGuid>
+      <value>//table[@id='tableCourse']/tbody/tr/td[5]/a</value>
+      <webElementGuid>5b238004-d8b0-4fcb-9133-1e10ca41543a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'My Account')]</value>
-      <webElementGuid>702c1512-b309-4556-b3d1-4d502fb6c4b0</webElementGuid>
+      <value>//a[contains(text(),'Detail')]</value>
+      <webElementGuid>26820605-add1-41bb-baf8-0b853ee32f47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::a[1]</value>
-      <webElementGuid>1c4dd4ab-2295-4f5a-a34a-eec476b13247</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unpaid'])[1]/following::a[1]</value>
+      <webElementGuid>2b0e85f4-067e-45ef-ae6c-023cbc0d4c28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[1]</value>
-      <webElementGuid>3c050733-16cc-49d8-9a05-f568b4ba028e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVN30012300018'])[1]/following::a[1]</value>
+      <webElementGuid>15fb15ea-30ea-48fa-ae8f-9166ef517f2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::a[3]</value>
-      <webElementGuid>d6477cc7-f96d-48fb-aa81-e936fd26071d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVN29012300006'])[1]/preceding::a[1]</value>
+      <webElementGuid>f56870a0-ee88-4868-befd-d59b22e75757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='My Account']/parent::*</value>
-      <webElementGuid>4d1847de-1aa6-4782-be81-c245ac8bf55d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel by User'])[1]/preceding::a[1]</value>
+      <webElementGuid>1f308b1e-73de-40fe-8575-6e13d3a85ed2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detail']/parent::*</value>
+      <webElementGuid>98ed0929-eb2e-44c3-acd4-cbb143d6e495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/dashboard')])[2]</value>
-      <webElementGuid>414e9d39-a936-44f2-b3ee-3bf0b97db29f</webElementGuid>
+      <value>//a[contains(@href, 'invoice/EVN30012300018')]</value>
+      <webElementGuid>fd0c5237-2e74-4bac-92c9-032563e10077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/ul/li[3]/a</value>
-      <webElementGuid>1d3ea724-963b-467a-bb91-286726e254b0</webElementGuid>
+      <value>//td[5]/a</value>
+      <webElementGuid>c922bf1c-107f-4e1c-9a8d-4679ac324577</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/dashboard' and (text() = 'My Account
-                                                                ' or . = 'My Account
-                                                                ')]</value>
-      <webElementGuid>d1425050-862a-4470-bfba-0616cfad2495</webElementGuid>
+      <value>//a[@href = 'invoice/EVN30012300018' and (text() = 'Detail' or . = 'Detail')]</value>
+      <webElementGuid>340be3f7-b545-48c4-b0bc-2d672826c98d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

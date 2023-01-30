@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_email</name>
+   <name>input_Email_Popup</name>
    <tag></tag>
    <elementGuidId>c45b23f6-7e83-4a4e-885b-1e2c499880db</elementGuidId>
    <selectorCollection>

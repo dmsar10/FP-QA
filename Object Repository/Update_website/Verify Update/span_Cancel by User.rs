@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Masuk</name>
+   <name>span_Cancel by User</name>
    <tag></tag>
-   <elementGuidId>67cc8f80-27fc-4cb8-812b-8adc622bb102</elementGuidId>
+   <elementGuidId>87846e8d-ff63-4c6e-bcfe-3e36809500b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbar-collapse-1']/ul/li[7]/a</value>
+         <value>//div[@id='badge-status']/h5/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>span.badge.badge-warning</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>ae59f4ee-c29a-4898-951e-55b02a6b6d13</webElementGuid>
+      <value>span</value>
+      <webElementGuid>276c78e7-69f6-4c4d-8d76-6733f9e0632c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/login</value>
-      <webElementGuid>de37b786-9d10-428c-b188-dc88d6a25950</webElementGuid>
+      <value>badge badge-warning</value>
+      <webElementGuid>aefb02c4-c5c7-4807-9654-8f3750b35e4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>8f5651a4-dbf5-41c5-9fcc-40e06e72e6f6</webElementGuid>
+      <value>Cancel by User</value>
+      <webElementGuid>f8f70e53-e08e-496c-b259-2f8dcb37286f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[7]/a[1]</value>
-      <webElementGuid>75ca68e1-1703-425f-af6c-d7e0d08a9f93</webElementGuid>
+      <value>id(&quot;badge-status&quot;)/h5[1]/span[@class=&quot;badge badge-warning&quot;]</value>
+      <webElementGuid>7ba09d6e-1232-4ca9-bbd4-ffb1c4de6c57</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbar-collapse-1']/ul/li[7]/a</value>
-      <webElementGuid>2bb1189e-eeea-4833-980f-1bd967a48972</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Masuk')]</value>
-      <webElementGuid>39bd0d63-a273-48f9-bb86-726822645f0c</webElementGuid>
+      <value>//div[@id='badge-status']/h5/span</value>
+      <webElementGuid>6a2109bf-664a-4393-a8d3-e5a3a13a5b6e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontak'])[1]/following::a[1]</value>
-      <webElementGuid>072efb98-49a7-44b8-b953-509376d1a41e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#EVN30012300018'])[1]/following::span[1]</value>
+      <webElementGuid>1c193568-cf17-4270-8382-f2297b17cba5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/following::a[2]</value>
-      <webElementGuid>83e1c44a-a6c5-41f2-87a4-f41051c7c68c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::span[1]</value>
+      <webElementGuid>8b2964d5-ec46-4868-ba2b-8e70327a1a49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::a[2]</value>
-      <webElementGuid>a658790b-e44c-4784-95cc-43c82135a63d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bill To :'])[1]/preceding::span[1]</value>
+      <webElementGuid>f0102b79-8285-4c5c-94f2-f15a8f3c0d2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>81798e4c-6dcf-4494-9d8c-05a1a1b2513d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dimas@@###'])[1]/preceding::span[1]</value>
+      <webElementGuid>2a7afb16-52fb-4213-a8a2-dd7f6cd81ec6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>02f6e22a-978b-4948-82d8-9e6f46af0f25</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Cancel by User']/parent::*</value>
+      <webElementGuid>b871da8c-d58c-450d-aa72-2609cd3d8841</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/a</value>
-      <webElementGuid>9ac764ea-e322-44e8-9661-d17f6a22e671</webElementGuid>
+      <value>//h5/span</value>
+      <webElementGuid>7fd563c5-6f6e-46dd-a4e9-5acf3cadd593</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/login' and (text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>0ef6e8ee-86af-4a7e-9719-a9179a6a9fc6</webElementGuid>
+      <value>//span[(text() = 'Cancel by User' or . = 'Cancel by User')]</value>
+      <webElementGuid>22abe5db-8619-41e3-a2e3-0b8c5fa4570d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login_website/Verify Login/strong_User tidak ditemukan",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Kirim link\u0027])[1]/preceding::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

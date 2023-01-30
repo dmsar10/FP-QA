@@ -61,7 +61,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Payment/iframe_concat(id(, , snap-midtrans, , ))_po_ef147f</value>
+      <value>Object Repository/Payment_website/iframe_concat(id(, , snap-midtrans, , ))_po_ef147f</value>
       <webElementGuid>7b8427dd-93c5-433f-902f-0b75de05dfd9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

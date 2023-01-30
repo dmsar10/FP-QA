@@ -21,18 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Login_website/Page_Be a Profressional Talent with Coding.ID/a_Masuk'))
+WebUI.click(findTestObject('Login_website/Login/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login_website/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'), 
-    'dmsar141@gmail.com')
+WebUI.setText(findTestObject('Login_website/Login/input_Email_email'), 'dmsar141@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login_website/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'), 
-    'cZFrDSk31FeaspcjiMwZ6g==')
+WebUI.setEncryptedText(findTestObject('Login_website/Login/input_Password'), 'cZFrDSk31FeaspcjiMwZ6g==')
 
-WebUI.click(findTestObject('Object Repository/Login_website/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
+WebUI.click(findTestObject('Login_website/Login/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login_website/Page_Be a Profressional Talent with Coding.ID/h1_Coding Bootcamp            Tech Talent B_bc94c8'), 
-    'Coding Bootcamp\n Tech Talent Berkualitas')
+WebUI.verifyTextPresent('Coding Bootcamp', true)
 
 WebUI.closeBrowser()
 

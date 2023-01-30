@@ -19,17 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl('https://demo-app.online/login')
 
-WebUI.click(findTestObject('Login_website/Login/a_Masuk'))
+WebUI.setText(findTestObject('Object Repository/Update_website/input_Email_email'), 'dmsar141@gmail.com')
 
-WebUI.setText(findTestObject('Login_website/Login/input_Email_email'), 'dmsar141@gmail.com')
+WebUI.setEncryptedText(findTestObject('Object Repository/Update_website/input_Kata                                 _98da12'), 
+    'cZFrDSk31FeaspcjiMwZ6g==')
 
-WebUI.setEncryptedText(findTestObject('Login_website/Login/input_Password'), 'cZFrDSk31FeaspcjiMwZ6g==')
+WebUI.click(findTestObject('Object Repository/Update_website/button_Login'))
 
-WebUI.click(findTestObject('Login_website/Login/button_Login'))
+WebUI.click(findTestObject('Object Repository/Update_website/i_Kontak_fas fa-user-alt'))
 
-WebUI.verifyTextPresent('Coding Bootcamp', true)
+WebUI.click(findTestObject('Object Repository/Update_website/a_My Account'))
+
+WebUI.click(findTestObject('Object Repository/Update_website/span_Invoice'))
+
+WebUI.click(findTestObject('Object Repository/Update_website/a_Detail'))
+
+WebUI.click(findTestObject('Object Repository/Update_website/a_Cancel                                   _4e9978'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Update_website/Verify Update/div_Cancelled'), 'Cancelled')
+
+WebUI.click(findTestObject('Object Repository/Update_website/button_OK'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Update_website/Verify Update/span_Cancel by User'), 'Cancel by User')
 
 WebUI.closeBrowser()
 

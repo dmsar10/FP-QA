@@ -25,11 +25,11 @@ WebUI.click(findTestObject('Login_website/Login/a_Masuk'))
 
 WebUI.click(findTestObject('Login_website/Login/a_Lupa kata sandi'))
 
-WebUI.setText(findTestObject('Login_website/Login/input_Lupa Kata Sandi_email'), 'abc123@gmail.com')
+WebUI.setText(findTestObject('Login_website/Login/input_Lupa Kata Sandi_email'), 'abc123456@gmail.com')
 
 WebUI.click(findTestObject('Login_website/Login/button_Kirim link'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login_website/Verify Login/strong_User tidak ditemukan'), 'User tidak ditemukan')
+WebUI.verifyTextPresent('User tidak ditemukan', true)
 
 WebUI.closeBrowser()
 

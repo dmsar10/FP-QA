@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Login_website/Login/input_Password'), '')
 
 WebUI.click(findTestObject('Login_website/Login/button_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Login_website/Login/input_Email_email'), 0)
+WebUI.verifyElementPresent(findTestObject('Login_website/Login Notification/input_Email_Popup'), 0)
 
 WebUI.delay(2)
 
