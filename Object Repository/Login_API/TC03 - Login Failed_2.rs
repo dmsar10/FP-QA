@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>Login with valid email and valid password</description>
-   <name>TC01 - Login Success</name>
+   <description>Login with invalid format email</description>
+   <name>TC03 - Login Failed_2</name>
    <tag></tag>
-   <elementGuidId>9380c369-8f11-4427-9594-d7e1fddaace9</elementGuidId>
+   <elementGuidId>b0ec0d01-1125-4e55-8ef9-3afc5cc537ea</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -15,7 +15,7 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;email&quot;,
-      &quot;value&quot;: &quot;triandiwandanu17@gmail.com&quot;
+      &quot;value&quot;: &quot;trian1234@#\u0026$(&quot;
     },
     {
       &quot;name&quot;: &quot;password&quot;,
@@ -30,10 +30,10 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/x-www-form-urlencoded</value>
-      <webElementGuid>4394f52b-d79a-4393-99d5-806f57950ab8</webElementGuid>
+      <webElementGuid>7460b1b4-8cc3-49d8-8b49-609c9b0da1cd</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.5.5</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://demo-app.online/api/login</restUrl>
@@ -43,7 +43,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
@@ -57,9 +57,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-
-
-</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
