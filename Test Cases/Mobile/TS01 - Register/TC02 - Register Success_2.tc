@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register with uppercase name and data valid</description>
+   <name>TC02 - Register Success_2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad59f84c-57d9-4d4d-9a15-5ae6dde191f2</testCaseGuid>
+</TestCaseEntity>

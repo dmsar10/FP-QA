@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Login Here')
 
 Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Register'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Nama'), 'muhamad trian diwandanu', 0)
+Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Nama'), 'MUHAMAD TRIAN DIWANDANU', 0)
 
 Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Calendar'), 0)
 

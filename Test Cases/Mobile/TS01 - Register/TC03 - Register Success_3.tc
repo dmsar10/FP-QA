@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register with mixing (lowercase and uppercase) name and data valid</description>
+   <name>TC03 - Register Success_3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad697b72-ec98-4ef5-aea5-5164b327fe08</testCaseGuid>
+</TestCaseEntity>

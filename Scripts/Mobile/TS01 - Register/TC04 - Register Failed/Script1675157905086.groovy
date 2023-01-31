@@ -23,31 +23,9 @@ Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Login Here')
 
 Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Register'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Nama'), 'muhamad trian diwandanu', 0)
+Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Nama'), 'trian@*%!@#', 0)
 
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Calendar'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Pilih Tahun'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Tahun 2010'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Tanggal 25'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Calendar OK'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Email'), 'noreplydesignby@gmail.com', 0)
-
-Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Whatsapp'), '081288527785', 0)
-
-Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Kata Sandi'), 'pw123456', 0)
-
-Mobile.setText(findTestObject('Object Repository/Register_Mobile/textbox_Konfirmasi Kata Sandi'), 'pw123456', 0)
-
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Checkbox'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Register_Mobile/button_Daftar'), 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Register_Mobile/text_Verification Email'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Register_Mobile/text_Name must be alphabetic'), 0)
 
 Mobile.closeApplication()
 
