@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Register with Google account</description>
+   <description>Register with symbol name</description>
    <name>TC04 - Register Failed</name>
    <tag></tag>
    <comment></comment>

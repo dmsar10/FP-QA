@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register Case,,TC01 - TC 04,,2023-02-01 15:20:49,2023-02-01 15:25:18,4m - 29.919s,PASSED
+,,,,,,,
+Test Cases/Mobile/TS01 - Register/TC01 - Register Success,,Register with lowercase name and data valid,,2023-02-01 15:20:49,2023-02-01 15:22:15,1m - 25.884s,PASSED
+"startApplication(""C:\Users\User-PC\Downloads\apk\Demo_APP_CodingID_1.0.apk"", true)",,,,2023-02-01 15:20:49,2023-02-01 15:21:08,18.986s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Login Here""), 0)",,,,2023-02-01 15:21:08,2023-02-01 15:21:13,5.077s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Register""), 0)",,,,2023-02-01 15:21:13,2023-02-01 15:21:15,1.686s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Nama""), ""muhamad trian diwandanu"", 0)",,,,2023-02-01 15:21:15,2023-02-01 15:21:17,2.076s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Calendar""), 0)",,,,2023-02-01 15:21:17,2023-02-01 15:21:19,1.606s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Pilih Tahun""), 0)",,,,2023-02-01 15:21:19,2023-02-01 15:21:20,0.947s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Tahun 2010""), 0)",,,,2023-02-01 15:21:20,2023-02-01 15:21:21,1.440s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Tanggal 25""), 0)",,,,2023-02-01 15:21:21,2023-02-01 15:21:22,0.851s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Calendar OK""), 0)",,,,2023-02-01 15:21:22,2023-02-01 15:21:22,0.267s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Email""), ""noreplydesignby@gmail.com"", 0)",,,,2023-02-01 15:21:22,2023-02-01 15:21:24,1.710s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Whatsapp""), ""081288527785"", 0)",,,,2023-02-01 15:21:24,2023-02-01 15:21:26,1.655s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Kata Sandi""), ""pw123456"", 0)",,,,2023-02-01 15:21:26,2023-02-01 15:21:27,1.678s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Konfirmasi Kata Sandi""), ""pw123456"", 0)",,,,2023-02-01 15:21:27,2023-02-01 15:21:29,1.717s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Checkbox""), 0)",,,,2023-02-01 15:21:29,2023-02-01 15:21:30,1.399s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Daftar""), 0)",,,,2023-02-01 15:21:30,2023-02-01 15:22:01,30.536s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Register_Mobile/text_Verification Email""), 0)",,,,2023-02-01 15:22:01,2023-02-01 15:22:05,4.323s,PASSED
+closeApplication(),,,,2023-02-01 15:22:05,2023-02-01 15:22:15,9.521s,PASSED
+,,,,,,,
+Test Cases/Mobile/TS01 - Register/TC02 - Register Success_2,,Register with uppercase name and data valid,,2023-02-01 15:22:15,2023-02-01 15:23:41,1m - 26.564s,PASSED
+"startApplication(""C:\Users\User-PC\Downloads\apk\Demo_APP_CodingID_1.0.apk"", true)",,,,2023-02-01 15:22:15,2023-02-01 15:22:42,26.405s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Login Here""), 0)",,,,2023-02-01 15:22:42,2023-02-01 15:22:49,7.115s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Register""), 0)",,,,2023-02-01 15:22:49,2023-02-01 15:22:50,1.469s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Nama""), ""MUHAMAD TRIAN DIWANDANU"", 0)",,,,2023-02-01 15:22:50,2023-02-01 15:22:52,2.338s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Calendar""), 0)",,,,2023-02-01 15:22:52,2023-02-01 15:22:54,1.510s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Pilih Tahun""), 0)",,,,2023-02-01 15:22:54,2023-02-01 15:22:55,1.016s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Tahun 2010""), 0)",,,,2023-02-01 15:22:55,2023-02-01 15:22:56,1.382s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Tanggal 25""), 0)",,,,2023-02-01 15:22:56,2023-02-01 15:22:57,0.859s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Calendar OK""), 0)",,,,2023-02-01 15:22:57,2023-02-01 15:22:57,0.258s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Email""), ""noreplydesignby@gmail.com"", 0)",,,,2023-02-01 15:22:57,2023-02-01 15:22:59,1.869s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Whatsapp""), ""081288527785"", 0)",,,,2023-02-01 15:22:59,2023-02-01 15:23:01,1.855s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Kata Sandi""), ""pw123456"", 0)",,,,2023-02-01 15:23:01,2023-02-01 15:23:03,1.673s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Konfirmasi Kata Sandi""), ""pw123456"", 0)",,,,2023-02-01 15:23:03,2023-02-01 15:23:05,1.695s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Checkbox""), 0)",,,,2023-02-01 15:23:05,2023-02-01 15:23:06,1.425s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Daftar""), 0)",,,,2023-02-01 15:23:06,2023-02-01 15:23:36,30.312s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Register_Mobile/text_Verification Email""), 0)",,,,2023-02-01 15:23:36,2023-02-01 15:23:40,3.525s,PASSED
+closeApplication(),,,,2023-02-01 15:23:40,2023-02-01 15:23:41,1.444s,PASSED
+,,,,,,,
+Test Cases/Mobile/TS01 - Register/TC03 - Register Success_3,,Register with mixing (lowercase and uppercase) name and data valid,,2023-02-01 15:23:41,2023-02-01 15:24:52,1m - 10.931s,PASSED
+"startApplication(""C:\Users\User-PC\Downloads\apk\Demo_APP_CodingID_1.0.apk"", true)",,,,2023-02-01 15:23:42,2023-02-01 15:23:57,15.113s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Login Here""), 0)",,,,2023-02-01 15:23:57,2023-02-01 15:24:02,4.862s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Register""), 0)",,,,2023-02-01 15:24:02,2023-02-01 15:24:03,1.486s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Nama""), ""Muhamad Trian Diwandanu"", 0)",,,,2023-02-01 15:24:03,2023-02-01 15:24:05,1.666s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Calendar""), 0)",,,,2023-02-01 15:24:05,2023-02-01 15:24:06,1.569s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Pilih Tahun""), 0)",,,,2023-02-01 15:24:06,2023-02-01 15:24:08,1.419s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Tahun 2010""), 0)",,,,2023-02-01 15:24:08,2023-02-01 15:24:09,0.837s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Tanggal 25""), 0)",,,,2023-02-01 15:24:09,2023-02-01 15:24:09,0.824s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Calendar OK""), 0)",,,,2023-02-01 15:24:09,2023-02-01 15:24:10,0.239s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Email""), ""noreplydesignby@gmail.com"", 0)",,,,2023-02-01 15:24:10,2023-02-01 15:24:11,1.634s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Whatsapp""), ""081288527785"", 0)",,,,2023-02-01 15:24:11,2023-02-01 15:24:13,1.594s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Kata Sandi""), ""pw123456"", 0)",,,,2023-02-01 15:24:13,2023-02-01 15:24:14,1.566s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Konfirmasi Kata Sandi""), ""pw123456"", 0)",,,,2023-02-01 15:24:14,2023-02-01 15:24:16,1.664s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Checkbox""), 0)",,,,2023-02-01 15:24:16,2023-02-01 15:24:18,1.441s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Daftar""), 0)",,,,2023-02-01 15:24:18,2023-02-01 15:24:48,30.149s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Register_Mobile/text_Verification Email""), 0)",,,,2023-02-01 15:24:48,2023-02-01 15:24:51,3.410s,PASSED
+closeApplication(),,,,2023-02-01 15:24:51,2023-02-01 15:24:52,1.062s,PASSED
+,,,,,,,
+Test Cases/Mobile/TS01 - Register/TC04 - Register Failed,,Register with symbol name,,2023-02-01 15:24:52,2023-02-01 15:25:18,26.264s,PASSED
+"startApplication(""C:\Users\User-PC\Downloads\apk\Demo_APP_CodingID_1.0.apk"", true)",,,,2023-02-01 15:24:53,2023-02-01 15:25:07,14.897s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Login Here""), 0)",,,,2023-02-01 15:25:07,2023-02-01 15:25:13,5.298s,PASSED
+"tap(findTestObject(""Object Repository/Register_Mobile/button_Register""), 0)",,,,2023-02-01 15:25:13,2023-02-01 15:25:14,1.317s,PASSED
+"setText(findTestObject(""Object Repository/Register_Mobile/textbox_Nama""), ""trian@*%!@#"", 0)",,,,2023-02-01 15:25:14,2023-02-01 15:25:16,1.788s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Register_Mobile/text_Name must be alphabetic""), 0)",,,,2023-02-01 15:25:16,2023-02-01 15:25:17,1.557s,PASSED
+closeApplication(),,,,2023-02-01 15:25:17,2023-02-01 15:25:18,1.046s,PASSED
